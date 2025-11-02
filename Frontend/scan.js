@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 zdocument.getElementById("scan-form").addEventListener("submit", async (e) => {
+=======
+document.getElementById("scan-form").addEventListener("submit", async (e) => {
+>>>>>>> 0bbcac5 (initial commit)
   e.preventDefault();
   const url = document.getElementById("website-url").value;
   const resultsContainer = document.getElementById("results-container");
